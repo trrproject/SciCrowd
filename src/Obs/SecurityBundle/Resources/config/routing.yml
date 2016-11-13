@@ -1,0 +1,60 @@
+users_signup:
+    pattern:  /signup
+    defaults: { _controller: "ObsSecurityBundle:Users:signup" }
+   
+obs_teste_homepage:
+    pattern: /teste/
+    defaults: { _controller: ObsSecurityBundle:Default:teste }
+
+homepage_admin:
+    pattern:  /
+    defaults: { _controller: ObsSecurityBundle:Default:index}
+
+ObsSecurityBundle_users:
+    resource: "@ObsSecurityBundle/Resources/config/routing/users.yml"
+    prefix:   /users
+
+ObsSecurityBundle_groups:
+    resource: "@ObsSecurityBundle/Resources/config/routing/groups.yml"
+    prefix:   /groups
+
+ObsSecurityBundle_roles:
+    resource: "@ObsSecurityBundle/Resources/config/routing/roles.yml"
+    prefix:   /roles
+   
+ObsCoreBundle_author:
+    resource: "@ObsCoreBundle/Resources/config/routing/author.yml"
+    prefix:   /author
+    
+ObsCoreBundle_country:
+    resource: "@ObsCoreBundle/Resources/config/routing/country.yml"
+    prefix:   /country
+
+ObsCoreBundle_editor:
+    resource: "@ObsCoreBundle/Resources/config/routing/editor.yml"
+    prefix:   /editor
+
+ObsCoreBundle_institution:
+    resource: "@ObsCoreBundle/Resources/config/routing/institution.yml"
+    prefix:   /institution
+
+ObsCoreBundle_isntype:
+    resource: "@ObsCoreBundle/Resources/config/routing/isntype.yml"
+    prefix:   /isntype
+    
+ObsCoreBundle_publisher:
+    resource: "@ObsCoreBundle/Resources/config/routing/publisher.yml"
+    prefix:   /publisher
+    
+ObsCoreBundle_typepub:
+    resource: "@ObsCoreBundle/Resources/config/routing/typepub.yml"
+    prefix:   /typepub    
+    
+ObsCoreBundle_publication:
+    resource: "@ObsCoreBundle/Resources/config/routing/publication.yml"
+    prefix:   /publication
+    
+ObsCoreBundle_publication:
+    resource: "@ObsCoreBundle/Resources/config/routing/notes.yml"
+    prefix:   /notes
+    

@@ -1,0 +1,7 @@
+ObsCoreBundle_publication:
+    resource: "@ObsCoreBundle/Resources/config/routing/publication.yml"
+    prefix:   /publication
+
+
+    
+        

@@ -1,0 +1,101 @@
+Obs\CoreBundle\Entity\Publication:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    title:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    year:
+      type: date
+      nullable: true
+    volume:
+      type: string
+      length: 10
+      fixed: false
+      nullable: true
+    number:
+      type: string
+      length: 10
+      fixed: false
+      nullable: true
+    pages:
+      type: string
+      length: 10
+      fixed: false
+      nullable: true
+    edition:
+      type: string
+      length: 10
+      fixed: false
+      nullable: true
+    keywords:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    doi:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    approvedFlag:
+      type: boolean
+      nullable: false
+      column: approved_flag
+    ISN:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+        
+        
+  manyToMany:
+    authors:
+      targetEntity: Author
+      joinTable:
+        name: publications_authors
+        joinColumns:
+          publication_id:
+            referencedColumnName: id
+        inverseJoinColumns:
+          author_id:
+            referencedColumnName: id
+
+    editors:
+      targetEntity: Editor
+      joinTable:
+        name: publications_editor
+        joinColumns:
+          publication_id:
+            referencedColumnName: id
+        inverseJoinColumns:
+          editor_id:
+            referencedColumnName: id
+            
+  manyToOne:
+   typepubs:
+     targetEntity: TypePub
+     inversedBy: publications
+     joinColumn: 
+        name: typepub_id
+        referencedColumnName: id
+   
+   isntypes:
+     targetEntity: IsnType
+     inversedBy: publications
+     joinColumn: 
+        name: isntype_id
+        referencedColumnName: id
+        
+   publishers:
+     targetEntity: Publisher
+     inversedBy: publications
+     joinColumn: 
+        name: publisher_id
+        referencedColumnName: id

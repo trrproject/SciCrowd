@@ -1,0 +1,24 @@
+Obs\CoreBundle\Entity\TypePub:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    name:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    description:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+        
+  oneToMany:
+    publications:
+      targetEntity: Publication
+      mappedBy: typepubs
+      

@@ -1,0 +1,35 @@
+users:
+    pattern:  /
+    defaults: { _controller: "ObsSecurityBundle:Users:index" }
+
+users_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsSecurityBundle:Users:show" }
+
+users_new:
+    pattern:  /new
+    defaults: { _controller: "ObsSecurityBundle:Users:new" }
+    
+users_signup_create:
+    pattern:  /signup/create
+    defaults: { _controller: "ObsSecurityBundle:Users:signupcreate" }
+    requirements: { _method: post }    
+
+users_create:
+    pattern:  /create
+    defaults: { _controller: "ObsSecurityBundle:Users:create" }
+    requirements: { _method: post }
+
+users_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsSecurityBundle:Users:edit" }
+
+users_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsSecurityBundle:Users:update" }
+    requirements: { _method: post|put }
+
+users_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsSecurityBundle:Users:delete" }
+    requirements: { _method: post|delete }

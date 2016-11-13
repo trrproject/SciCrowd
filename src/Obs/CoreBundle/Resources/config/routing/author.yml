@@ -1,0 +1,30 @@
+author:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:Author:index" }
+
+author_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:Author:show" }
+
+author_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:Author:new" }
+
+author_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:Author:create" }
+    requirements: { _method: post }
+
+author_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:Author:edit" }
+
+author_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:Author:update" }
+    requirements: { _method: post|put }
+
+author_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:Author:delete" }
+    requirements: { _method: post|delete }

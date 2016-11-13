@@ -1,0 +1,30 @@
+country:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:Country:index" }
+
+country_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:Country:show" }
+
+country_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:Country:new" }
+
+country_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:Country:create" }
+    requirements: { _method: post }
+
+country_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:Country:edit" }
+
+country_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:Country:update" }
+    requirements: { _method: post|put }
+
+country_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:Country:delete" }
+    requirements: { _method: post|delete }

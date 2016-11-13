@@ -1,0 +1,9 @@
+# src/Obs/SecurityBundle/Resources/config/validation.yml
+Obs\SecurityBundle\Entity\Users:
+    constraints:
+      - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: username
+      - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: email
+    properties:
+      username:
+        - NotBlank: ~
+        

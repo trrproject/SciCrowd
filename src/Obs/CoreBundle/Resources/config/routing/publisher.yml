@@ -1,0 +1,30 @@
+publisher:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:Publisher:index" }
+
+publisher_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:Publisher:show" }
+
+publisher_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:Publisher:new" }
+
+publisher_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:Publisher:create" }
+    requirements: { _method: post }
+
+publisher_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:Publisher:edit" }
+
+publisher_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:Publisher:update" }
+    requirements: { _method: post|put }
+
+publisher_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:Publisher:delete" }
+    requirements: { _method: post|delete }

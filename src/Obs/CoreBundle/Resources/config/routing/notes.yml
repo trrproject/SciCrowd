@@ -1,0 +1,30 @@
+notes:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:Notes:index" }
+
+notes_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:Notes:show" }
+
+notes_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:Notes:new" }
+
+notes_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:Notes:create" }
+    requirements: { _method: post }
+
+notes_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:Notes:edit" }
+
+notes_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:Notes:update" }
+    requirements: { _method: post|put }
+
+notes_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:Notes:delete" }
+    requirements: { _method: post|delete }

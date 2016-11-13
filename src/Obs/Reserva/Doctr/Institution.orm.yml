@@ -1,0 +1,32 @@
+Obs\CoreBundle\Entity\Institution:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    name:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    address:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+        
+  oneToMany:
+    authors:
+      targetEntity: Author
+      mappedBy: institutions
+      
+  manyToOne:
+   countries:
+     targetEntity: Country
+     inversedBy: institutions
+     joinColumn: 
+        name: country_id
+        referencedColumnName: id
+      

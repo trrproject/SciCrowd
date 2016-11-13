@@ -1,0 +1,163 @@
+<?php
+
+namespace Acme\DemoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Publication
+ *
+ * @ORM\Table(name="Publication")
+ * @ORM\Entity
+ */
+class Publication
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="title", type="string", length=50, nullable=true)
+     */
+    private $title;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="year", type="date", nullable=true)
+     */
+    private $year;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="volume", type="string", length=10, nullable=true)
+     */
+    private $volume;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="number", type="string", length=10, nullable=true)
+     */
+    private $number;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="pages", type="string", length=10, nullable=true)
+     */
+    private $pages;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="edition", type="string", length=10, nullable=true)
+     */
+    private $edition;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="keywords", type="string", length=50, nullable=true)
+     */
+    private $keywords;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="doi", type="string", length=50, nullable=true)
+     */
+    private $doi;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="approved_flag", type="boolean", nullable=false)
+     */
+    private $approvedFlag;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="ISN", type="string", length=50, nullable=true)
+     */
+    private $ISN;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\TypePub
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\TypePub", inversedBy="publications")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="typepub_id", referencedColumnName="id")
+     * })
+     */
+    private $typepubs;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\IsnType
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\IsnType", inversedBy="publications")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="isntype_id", referencedColumnName="id")
+     * })
+     */
+    private $isntypes;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\Publisher
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\Publisher", inversedBy="publications")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="publisher_id", referencedColumnName="id")
+     * })
+     */
+    private $publishers;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="Acme\DemoBundle\Entity\Author")
+     * @ORM\JoinTable(name="publications_authors",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="publication_id", referencedColumnName="id")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="author_id", referencedColumnName="id")
+     *   }
+     * )
+     */
+    private $authors;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="Acme\DemoBundle\Entity\Editor")
+     * @ORM\JoinTable(name="publications_editor",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="publication_id", referencedColumnName="id")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="editor_id", referencedColumnName="id")
+     *   }
+     * )
+     */
+    private $editors;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->authors = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->editors = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+}

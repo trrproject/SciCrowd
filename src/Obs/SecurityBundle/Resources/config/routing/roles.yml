@@ -1,0 +1,30 @@
+roles:
+    pattern:  /
+    defaults: { _controller: "ObsSecurityBundle:Roles:index" }
+
+roles_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsSecurityBundle:Roles:show" }
+
+roles_new:
+    pattern:  /new
+    defaults: { _controller: "ObsSecurityBundle:Roles:new" }
+
+roles_create:
+    pattern:  /create
+    defaults: { _controller: "ObsSecurityBundle:Roles:create" }
+    requirements: { _method: post }
+
+roles_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsSecurityBundle:Roles:edit" }
+
+roles_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsSecurityBundle:Roles:update" }
+    requirements: { _method: post|put }
+
+roles_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsSecurityBundle:Roles:delete" }
+    requirements: { _method: post|delete }

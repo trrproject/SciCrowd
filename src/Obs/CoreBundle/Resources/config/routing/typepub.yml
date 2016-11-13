@@ -1,0 +1,30 @@
+typepub:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:TypePub:index" }
+
+typepub_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:TypePub:show" }
+
+typepub_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:TypePub:new" }
+
+typepub_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:TypePub:create" }
+    requirements: { _method: post }
+
+typepub_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:TypePub:edit" }
+
+typepub_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:TypePub:update" }
+    requirements: { _method: post|put }
+
+typepub_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:TypePub:delete" }
+    requirements: { _method: post|delete }

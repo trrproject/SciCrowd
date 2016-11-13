@@ -1,0 +1,10 @@
+<header>
+    <h3>Users creation</h3>
+</header>
+
+<form action="{{ path('users_signup_create') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <p>
+        <button type="submit">Create</button>
+    </p>
+</form>

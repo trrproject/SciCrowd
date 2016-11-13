@@ -1,0 +1,19 @@
+Obs\CoreBundle\Entity\Publisher:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    name:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+        
+  oneToMany:
+    publications:
+      targetEntity: Publication
+      mappedBy: publishers
+      

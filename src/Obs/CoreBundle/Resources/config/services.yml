@@ -1,0 +1,7 @@
+parameters:
+#    obs_core.example.class: Obs\CoreBundle\Example
+
+services:
+#    obs_core.example:
+#        class: %obs_core.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

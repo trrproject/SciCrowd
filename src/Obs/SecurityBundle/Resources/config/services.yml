@@ -1,0 +1,7 @@
+parameters:
+#    obs_security.example.class: Obs\SecurityBundle\Example
+
+services:
+#    obs_security.example:
+#        class: %obs_security.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

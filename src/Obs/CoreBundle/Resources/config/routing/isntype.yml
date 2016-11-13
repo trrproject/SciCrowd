@@ -1,0 +1,30 @@
+isntype:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:IsnType:index" }
+
+isntype_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:IsnType:show" }
+
+isntype_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:IsnType:new" }
+
+isntype_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:IsnType:create" }
+    requirements: { _method: post }
+
+isntype_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:IsnType:edit" }
+
+isntype_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:IsnType:update" }
+    requirements: { _method: post|put }
+
+isntype_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:IsnType:delete" }
+    requirements: { _method: post|delete }

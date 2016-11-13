@@ -1,0 +1,27 @@
+Obs\CoreBundle\Entity\Notes:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    notes:
+      type: string
+      length: 150
+      fixed: false
+      nullable: true
+       
+  manyToOne:
+   publications:
+     targetEntity: Publication
+     inversedBy: notes
+     joinColumn: 
+        name: publication_id
+        referencedColumnName: id
+   users:
+     targetEntity: Users
+     inversedBy: notes
+     joinColumn: 
+        name: user_id
+        referencedColumnName: id

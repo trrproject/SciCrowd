@@ -1,0 +1,31 @@
+Obs\CoreBundle\Entity\Author:
+  type: entity
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    name:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    email:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+    contact:
+      type: string
+      length: 50
+      fixed: false
+      nullable: true
+       
+  manyToOne:
+   institutions:
+     targetEntity: Institution
+     inversedBy: authors
+     joinColumn: 
+        name: institution_id
+        referencedColumnName: id

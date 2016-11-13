@@ -1,0 +1,11 @@
+Hello Utilizador!
+Este é um exemplo de teste .....
+
+{{info}}
+
+{% if app.user %}
+    Username: {{ app.user.username }}
+    <a href="{{ path('logout') }}">Logout</a>
+{% else %}
+    <a href="{{ path('login') }}">Login</a>
+{% endif %}

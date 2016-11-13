@@ -1,0 +1,21 @@
+login:
+    pattern:   /login
+    defaults:  { _controller: ObsSecurityBundle:Authentication:login }
+
+login_check:
+    pattern:   /login_check 
+
+logout:
+    pattern:  /logout
+
+homepage:
+    pattern:  /
+    defaults: { _controller: ObsCoreBundle:Default:index }
+  
+obs_security:
+    resource: "@ObsSecurityBundle/Resources/config/routing.yml"
+    prefix:   /admin
+
+obs_core:
+    resource: "@ObsCoreBundle/Resources/config/routing.yml"
+    prefix:   /

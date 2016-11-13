@@ -1,0 +1,63 @@
+<?php
+
+namespace Acme\DemoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Institution
+ *
+ * @ORM\Table(name="Institution")
+ * @ORM\Entity
+ */
+class Institution
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=true)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="address", type="string", length=50, nullable=true)
+     */
+    private $address;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\OneToMany(targetEntity="Acme\DemoBundle\Entity\Author", mappedBy="institutions")
+     */
+    private $authors;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\Country
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\Country", inversedBy="institutions")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="country_id", referencedColumnName="id")
+     * })
+     */
+    private $countries;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->authors = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+}

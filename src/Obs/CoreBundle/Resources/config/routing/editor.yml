@@ -1,0 +1,30 @@
+editor:
+    pattern:  /
+    defaults: { _controller: "ObsCoreBundle:Editor:index" }
+
+editor_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsCoreBundle:Editor:show" }
+
+editor_new:
+    pattern:  /new
+    defaults: { _controller: "ObsCoreBundle:Editor:new" }
+
+editor_create:
+    pattern:  /create
+    defaults: { _controller: "ObsCoreBundle:Editor:create" }
+    requirements: { _method: post }
+
+editor_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsCoreBundle:Editor:edit" }
+
+editor_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsCoreBundle:Editor:update" }
+    requirements: { _method: post|put }
+
+editor_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsCoreBundle:Editor:delete" }
+    requirements: { _method: post|delete }

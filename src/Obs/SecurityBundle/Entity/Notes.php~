@@ -1,0 +1,52 @@
+<?php
+
+namespace Acme\DemoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Notes
+ *
+ * @ORM\Table(name="Notes")
+ * @ORM\Entity
+ */
+class Notes
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="notes", type="string", length=150, nullable=true)
+     */
+    private $notes;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\Publication
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\Publication", inversedBy="notes")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="publication_id", referencedColumnName="id")
+     * })
+     */
+    private $publications;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\Users
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\Users", inversedBy="notes")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     * })
+     */
+    private $users;
+
+
+}

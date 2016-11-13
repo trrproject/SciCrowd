@@ -1,0 +1,22 @@
+<p>Página principal Admin</p>
+
+{% if app.user %}
+    <p>Olá {{ app.user.username }}!
+    <a href="{{ path('logout') }}">Logout</a></p>
+{% else %}
+    <a href="{{ path('login') }}">Login</a>
+{% endif %}
+
+        
+<p><a href="{{ path('typepub') }}">Type of Publication</a></p>
+<p><a href="{{ path('isntype') }}">ISN Type</a></p>
+<p><a href="{{ path('editor') }}">Editor</a></p>
+<p><a href="{{ path('publisher') }}">Publisher</a></p>
+<p><a href="{{ path('country') }}">Country</a></p>
+<p><a href="{{ path('institution') }}">Institution</a></p>
+<p><a href="{{ path('author') }}">Author</a></p>
+<p><a href="{{ path('publication') }}">Publication</a></p>
+<p><a href="{{ path('publication') }}">Notes</a></p>
+<p><a href="{{ path('users') }}">Users</a></p>
+<p><a href="{{ path('groups') }}">Groups</a></p>
+<p><a href="{{ path('roles') }}">Roles</a></p>

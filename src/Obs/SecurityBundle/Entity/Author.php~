@@ -1,0 +1,56 @@
+<?php
+
+namespace Acme\DemoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Author
+ *
+ * @ORM\Table(name="Author")
+ * @ORM\Entity
+ */
+class Author
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=50, nullable=true)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=50, nullable=true)
+     */
+    private $email;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="contact", type="string", length=50, nullable=true)
+     */
+    private $contact;
+
+    /**
+     * @var \Acme\DemoBundle\Entity\Institution
+     *
+     * @ORM\ManyToOne(targetEntity="Acme\DemoBundle\Entity\Institution", inversedBy="authors")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="institution_id", referencedColumnName="id")
+     * })
+     */
+    private $institutions;
+
+
+}

@@ -1,0 +1,30 @@
+groups:
+    pattern:  /
+    defaults: { _controller: "ObsSecurityBundle:Groups:index" }
+
+groups_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ObsSecurityBundle:Groups:show" }
+
+groups_new:
+    pattern:  /new
+    defaults: { _controller: "ObsSecurityBundle:Groups:new" }
+
+groups_create:
+    pattern:  /create
+    defaults: { _controller: "ObsSecurityBundle:Groups:create" }
+    requirements: { _method: post }
+
+groups_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ObsSecurityBundle:Groups:edit" }
+
+groups_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ObsSecurityBundle:Groups:update" }
+    requirements: { _method: post|put }
+
+groups_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ObsSecurityBundle:Groups:delete" }
+    requirements: { _method: post|delete }
