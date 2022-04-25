@@ -1,7 +1,7 @@
 SciCrowd System
 ===========================================
 
-![Logo2_No_Background](https://user-images.githubusercontent.com/3758981/165171072-491b1536-bf12-4608-889f-e467ac866bae.png)
+![Captura de ecrã 2022-04-25, às 21 40 20](https://user-images.githubusercontent.com/3758981/165171207-1a3e2fa8-4502-4b96-898b-1322ed519cc9.png)
 
 # Overview
 
