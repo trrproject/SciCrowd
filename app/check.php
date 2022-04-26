@@ -30,7 +30,7 @@ foreach ($symfonyRequirements->getRequirements() as $req) {
 }
 
 echo_title('Optional recommendations');
-
+ 
 foreach ($symfonyRequirements->getRecommendations() as $req) {
     echo_requirement($req);
 }
