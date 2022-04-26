@@ -19,3 +19,4 @@ obs_security:
 obs_core:
     resource: "@ObsCoreBundle/Resources/config/routing.yml"
     prefix:   /
+ 
