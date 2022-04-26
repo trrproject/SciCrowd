@@ -5,3 +5,4 @@ cd "../vendor/doctrine/orm/bin"
 BIN_TARGET="`pwd`/doctrine.php"
 cd "$SRC_DIR"
 "$BIN_TARGET" "$@"
+ 
