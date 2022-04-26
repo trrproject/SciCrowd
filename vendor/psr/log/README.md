@@ -9,7 +9,7 @@ describes a logger. See the specification for more details.
 
 Usage
 -----
-
+ 
 If you need a logger, you can use the interface like this:
 
 ```php
