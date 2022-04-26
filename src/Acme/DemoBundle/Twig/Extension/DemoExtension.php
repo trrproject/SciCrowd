@@ -1,7 +1,7 @@
 <?php
 
 namespace Acme\DemoBundle\Twig\Extension;
-
+ 
 use CG\Core\ClassUtils;
 
 class DemoExtension extends \Twig_Extension
