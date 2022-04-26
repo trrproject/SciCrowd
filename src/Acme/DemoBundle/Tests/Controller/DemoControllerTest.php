@@ -15,3 +15,4 @@ class DemoControllerTest extends WebTestCase
         $this->assertGreaterThan(0, $crawler->filter('html:contains("Hello Fabien")')->count());
     }
 }
+ 
