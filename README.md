@@ -6,7 +6,7 @@ In a context in which the technology is developed at an increasing pace and wher
 
 # Project Description
 
-SciCrowd is a crowd-powered system prototype that uses an open participation model in which a number of researchers, crowd members, and machines can act as "teammates" and contribute for improving the way as scientometric data is processed.
+SciCrowd is a crowd-powered system prototype that uses an open participation model in which humans and machines can act as "teammates" and contribute for improving the way as scientometric data is processed.
 
 - Functional Requirements:
   - [Authentication]
