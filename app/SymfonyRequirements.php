@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-
+ 
 /*
  * Users of PHP 5.2 should be able to run the requirements checks.
  * This is why the file and all classes must be compatible with PHP 5.2+
