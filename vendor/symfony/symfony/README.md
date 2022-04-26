@@ -3,7 +3,7 @@ README
 
 What is Symfony2?
 -----------------
-
+ 
 Symfony2 is a PHP 5.3 full-stack web framework. It is written with speed and
 flexibility in mind. It allows developers to build better and easy to maintain
 websites with PHP.
