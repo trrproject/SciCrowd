@@ -30,6 +30,8 @@ Correia, A. and Lindley, S. (2022). Collaboration in relation to Human-AI System
 
 Correia, A., Fonseca, B., Paredes, H., Chaves, R., Schneider, D., and Jameel, S. (2021). Determinants and Predictors of Intentionality and Perceived Reliability in Human-AI Interaction as a Means for Innovative Scientific Discovery. In Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), pp. 3681-3684. DOI: 10.1109/BigData52589.2021.9671358.
 
+Correia, A., Guimarães, D., Paulino, D., Jameel, S., Schneider, D., Fonseca, B., and Paredes, H. (2021). AuthCrowd: Author Name Disambiguation and Entity Matching using Crowdsourcing. In Proceedings of the 2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD), pp. 150-155. DOI: 10.1109/CSCWD49262.2021.9437769.
+
 Correia, A., Jameel, S., Schneider, D., Paredes, H., and Fonseca, B. (2020). A Workflow-Based Methodological Framework for Hybrid Human-AI Enabled Scientometrics. In Proceedings of the 2020 IEEE International Conference on Big Data (Big Data), pp. 2876-2883. DOI: 10.1109/BigData50022.2020.9378096.
 
 Correia, A., Fonseca, B., Paredes, H., Schneider, D., and Jameel, S. (2019). Development of a Crowd-Powered System Architecture for Knowledge Discovery in Scientific Domains. In Proceedings of the 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), pp. 1372-1377. DOI: 10.1109/SMC.2019.8914637.
