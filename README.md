@@ -24,7 +24,7 @@ SciCrowd is a crowd-powered system prototype that uses an open participation mod
 
 ## Publications
 
-Correia, A., Grover, A., Jameel, S., Schneider, D., Antunes, P., and Fonseca, B. (2023). A Hybrid Human–AI Tool for Scientometric Analysis. Artificial Intelligence Review. DOI: https://doi.org/10.1007/s10462-023-10548-7.
+Correia, A., Grover, A., Jameel, S., Schneider, D., Antunes, P., and Fonseca, B. (2023). A Hybrid Human–AI Tool for Scientometric Analysis. Artificial Intelligence Review. DOI: 10.1007/s10462-023-10548-7.
 
 Correia, A., Fonseca, B., Paredes, H., Chaves, R., Schneider, D., and Jameel, S. (2021). Determinants and Predictors of Intentionality and Perceived Reliability in Human-AI Interaction as a Means for Innovative Scientific Discovery. In Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), pp. 3681-3684. DOI: 10.1109/BigData52589.2021.9671358.
 
