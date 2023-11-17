@@ -24,19 +24,21 @@ SciCrowd is a crowd-powered system prototype that uses an open participation mod
 
 ## Publications
 
-Correia, A., Grover, A., Jameel, S., Schneider, D., Antunes, P., and Fonseca, B. (2023). A Hybrid Human–AI Tool for Scientometric Analysis. Artificial Intelligence Review. DOI: 10.1007/s10462-023-10548-7.
+Correia, A., Grover, A., Jameel, S., Schneider, D., Antunes, P., and Fonseca, B. (2023). A hybrid human–AI tool for scientometric analysis. Artificial Intelligence Review, vol. 56, pp. 983-1010. DOI: 10.1007/s10462-023-10548-7.
 
-Correia, A. and Lindley, S. (2022). Collaboration in relation to Human-AI Systems: Status, Trends, and Impact. In Proceedings of the 2022 IEEE International Conference on Big Data (Big Data), pp. 3417-3422. DOI: 10.1109/BigData55660.2022.10020416.
+Correia, A., Kärkkäinen, T., Jameel, S., Schneider, D., Antunes, P., Fonseca, B., and Grover, A. (2023). A pipeline for AI-based quantitative studies of science enhanced by crowdsourced inferential modelling. In Proceedings of the 23rd International Conference on Hybrid Intelligent Systems (forthcoming).
 
-Correia, A., Fonseca, B., Paredes, H., Chaves, R., Schneider, D., and Jameel, S. (2021). Determinants and Predictors of Intentionality and Perceived Reliability in Human-AI Interaction as a Means for Innovative Scientific Discovery. In Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), pp. 3681-3684. DOI: 10.1109/BigData52589.2021.9671358.
+Correia, A. and Lindley, S. (2022). Collaboration in relation to human-AI systems: status, trends, and impact. In Proceedings of the 2022 IEEE International Conference on Big Data (Big Data), pp. 3417-3422. DOI: 10.1109/BigData55660.2022.10020416.
 
-Correia, A., Guimarães, D., Paulino, D., Jameel, S., Schneider, D., Fonseca, B., and Paredes, H. (2021). AuthCrowd: Author Name Disambiguation and Entity Matching using Crowdsourcing. In Proceedings of the 2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD), pp. 150-155. DOI: 10.1109/CSCWD49262.2021.9437769.
+Correia, A., Fonseca, B., Paredes, H., Chaves, R., Schneider, D., and Jameel, S. (2021). Determinants and predictors of intentionality and perceived reliability in human-AI interaction as a means for innovative scientific discovery. In Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), pp. 3681-3684. DOI: 10.1109/BigData52589.2021.9671358.
 
-Correia, A., Jameel, S., Schneider, D., Paredes, H., and Fonseca, B. (2020). A Workflow-Based Methodological Framework for Hybrid Human-AI Enabled Scientometrics. In Proceedings of the 2020 IEEE International Conference on Big Data (Big Data), pp. 2876-2883. DOI: 10.1109/BigData50022.2020.9378096.
+Correia, A., Guimarães, D., Paulino, D., Jameel, S., Schneider, D., Fonseca, B., and Paredes, H. (2021). AuthCrowd: author name disambiguation and entity matching using crowdsourcing. In Proceedings of the 2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD), pp. 150-155. DOI: 10.1109/CSCWD49262.2021.9437769.
 
-Correia, A., Fonseca, B., Paredes, H., Schneider, D., and Jameel, S. (2019). Development of a Crowd-Powered System Architecture for Knowledge Discovery in Scientific Domains. In Proceedings of the 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), pp. 1372-1377. DOI: 10.1109/SMC.2019.8914637.
+Correia, A., Jameel, S., Schneider, D., Paredes, H., and Fonseca, B. (2020). A workflow-based methodological framework for hybrid human-AI enabled scientometrics. In Proceedings of the 2020 IEEE International Conference on Big Data (Big Data), pp. 2876-2883. DOI: 10.1109/BigData50022.2020.9378096.
 
-Correia, A., Schneider, D., Paredes, H., and Fonseca, B. (2018). SciCrowd: Towards a Hybrid, Crowd-Computing System for Supporting Research Groups in Academic Settings. In Proceedings of the 24th International Conference on Collaboration and Technology (CRIWG), pp. 34-41. DOI: 10.1007/978-3-319-99504-5_4.
+Correia, A., Fonseca, B., Paredes, H., Schneider, D., and Jameel, S. (2019). Development of a crowd-powered system architecture for knowledge discovery in scientific domains. In Proceedings of the 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), pp. 1372-1377. DOI: 10.1109/SMC.2019.8914637.
+
+Correia, A., Schneider, D., Paredes, H., and Fonseca, B. (2018). SciCrowd: towards a hybrid, crowd-computing system for supporting research groups in Academic Settings. In Proceedings of the 24th International Conference on Collaboration and Technology (CRIWG), pp. 34-41. DOI: 10.1007/978-3-319-99504-5_4.
 
 ![SciCrowd_System](https://user-images.githubusercontent.com/3758981/165169908-5dd7b3e5-ce9d-462d-a601-86eea441a65d.png)
 
