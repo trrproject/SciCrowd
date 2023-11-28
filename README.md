@@ -30,6 +30,8 @@ Correia, A., Guimarães, D., Paredes, H., Fonseca, B., Paulino, D., Trigo, L., B
 
 Correia, A., Kärkkäinen, T., Jameel, S., Schneider, D., Antunes, P., Fonseca, B., and Grover, A. (2023). A pipeline for AI-based quantitative studies of science enhanced by crowdsourced inferential modelling. In Proceedings of the 23rd International Conference on Hybrid Intelligent Systems (forthcoming).
 
+Correia, A., Paulino, D., Paredes, H., Guimarães, D., Schneider, D., and Fonseca, B. (2023). Investigating author research relatedness through crowdsourcing: a replication study on MTurk. In Proceedings of the 2023 IEEE 26th International Conference on Computer Supported Cooperative Work in Design (CSCWD), pp. 77-82. DOI: 10.1109/CSCWD57460.2023.10152707.
+
 Correia, A. and Lindley, S. (2022). Collaboration in relation to human-AI systems: status, trends, and impact. In Proceedings of the 2022 IEEE International Conference on Big Data (Big Data), pp. 3417-3422. DOI: 10.1109/BigData55660.2022.10020416.
 
 Correia, A., Fonseca, B., Paredes, H., Chaves, R., Schneider, D., and Jameel, S. (2021). Determinants and predictors of intentionality and perceived reliability in human-AI interaction as a means for innovative scientific discovery. In Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), pp. 3681-3684. DOI: 10.1109/BigData52589.2021.9671358.
