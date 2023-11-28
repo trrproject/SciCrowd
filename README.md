@@ -48,6 +48,7 @@ Correia, A., Fonseca, B., Paredes, H., Schneider, D., and Jameel, S. (2019). Dev
 
 Correia, A., Schneider, D., Paredes, H., and Fonseca, B. (2018). SciCrowd: towards a hybrid, crowd-computing system for supporting research groups in Academic Settings. In Proceedings of the 24th International Conference on Collaboration and Technology (CRIWG), pp. 34-41. DOI: 10.1007/978-3-319-99504-5_4.
 
+![Sci_Crowd_System](https://github.com/trrproject/SciCrowd/assets/3758981/4cd2457a-92ac-4cd1-8a98-a2920313f7a8)
 ![SciCrowd_System](https://user-images.githubusercontent.com/3758981/165169908-5dd7b3e5-ce9d-462d-a601-86eea441a65d.png)
 
 #### More Info
