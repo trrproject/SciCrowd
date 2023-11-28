@@ -26,7 +26,7 @@ SciCrowd is a crowd-powered system prototype that uses an open participation mod
 
 Correia, A., Grover, A., Jameel, S., Schneider, D., Antunes, P., and Fonseca, B. (2023). A hybrid human–AI tool for scientometric analysis. Artificial Intelligence Review, vol. 56, pp. 983-1010. DOI: 10.1007/s10462-023-10548-7.
 
-Correia, A., Guimarães, D., Paredes, H., Fonseca, B., Paulino, D., Trigo, L., Brazdil, P., Schneider, D., Grover, A., and Jameel, S. (2023). NLP-crowdsourcing hybrid framework for inter-researcher similarity detection. IEEE Transactions on Human-Machine Systems (early access).
+Correia, A., Guimarães, D., Paredes, H., Fonseca, B., Paulino, D., Trigo, L., Brazdil, P., Schneider, D., Grover, A., and Jameel, S. (2023). NLP-crowdsourcing hybrid framework for inter-researcher similarity detection. IEEE Transactions on Human-Machine Systems, pp. 1-10. DOI: 10.1109/THMS.2023.3319290.
 
 Correia, A., Kärkkäinen, T., Jameel, S., Schneider, D., Antunes, P., Fonseca, B., and Grover, A. (2023). A pipeline for AI-based quantitative studies of science enhanced by crowdsourced inferential modelling. In Proceedings of the 23rd International Conference on Hybrid Intelligent Systems (forthcoming).
 
