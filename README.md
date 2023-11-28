@@ -38,6 +38,10 @@ Correia, A., Guimarães, D., Paulino, D., Jameel, S., Schneider, D., Fonseca, B.
 
 Correia, A., Jameel, S., Schneider, D., Paredes, H., and Fonseca, B. (2020). A workflow-based methodological framework for hybrid human-AI enabled scientometrics. In Proceedings of the 2020 IEEE International Conference on Big Data (Big Data), pp. 2876-2883. DOI: 10.1109/BigData50022.2020.9378096.
 
+Correia, A., Jameel, S., Schneider, D., Fonseca, B., and Paredes, H. (2020). Theoretical underpinnings and practical challenges of crowdsourcing as a mechanism for academic study. In Proceedings of the 53rd Hawaii International Conference on System Sciences (HICSS), pp. 4630-4639. DOI: 10.24251/HICSS.2020.568.
+
+Correia, A., Schneider, D., Jameel, S., Paredes, H., and Fonseca, B. (2020). Empirical investigation of the factors influencing researchers’ adoption of crowdsourcing and machine learning. In Proceedings of the 2020 20th International Conference on Intelligent Systems Design and Applications (ISDA), pp. 1257-1270. DOI: 10.1007/978-3-030-71187-0_117.
+
 Correia, A., Fonseca, B., Paredes, H., Schneider, D., and Jameel, S. (2019). Development of a crowd-powered system architecture for knowledge discovery in scientific domains. In Proceedings of the 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), pp. 1372-1377. DOI: 10.1109/SMC.2019.8914637.
 
 Correia, A., Schneider, D., Paredes, H., and Fonseca, B. (2018). SciCrowd: towards a hybrid, crowd-computing system for supporting research groups in Academic Settings. In Proceedings of the 24th International Conference on Collaboration and Technology (CRIWG), pp. 34-41. DOI: 10.1007/978-3-319-99504-5_4.
